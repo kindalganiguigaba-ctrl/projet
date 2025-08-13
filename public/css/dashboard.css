@@ -1,0 +1,103 @@
+
+h1 {
+  text-align: center;
+}
+
+  body {
+  margin-top: 160px;
+}
+
+
+/* ======= Tableau de bord ======= */
+section.dashboard {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+section.dashboard h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+section.dashboard p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  margin: auto;
+}
+
+/* ======= Liens du menu ======= */
+.dashboard-links a {
+  display: block;
+  background-color: white;
+  margin: 10px auto;
+  padding: 15px 20px;
+  text-align: left;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #0c2d48;
+  font-weight: 500;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: background-color 0.2s, transform 0.2s;
+  max-width: 600px;
+}
+
+.dashboard-links a:hover {
+  background-color: #e0ecf7;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  body {
+    margin-top: 300px; /* moins d’espace sous le header sur petit écran */
+  }
+
+  
+
+  section.dashboard {
+    padding: 20px 10px;
+  }
+
+  section.dashboard h1 {
+    font-size: 5000px;
+  }
+
+ 
+
+  .dashboard-links a {
+    max-width: 100%;
+    font-size: 14px;
+    padding: 12px 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  body section {
+    margin-top: 200px;
+    padding-top: 20px;
+  }
+  section.dashboard h1 {
+    font-size: 40px;
+  }
+  body header {
+    margin-bottom: 450px;
+  }
+
+  body footer {
+    margin-top: 450px;
+  }
+
+  body footer p {
+    font-size: 35px;
+  }
+  section.dashboard p {
+    font-size: 40px;
+  }
+
+  .dashboard-links a {
+    font-size: 40px;
+    padding: 10px 12px;
+  }
+}
+

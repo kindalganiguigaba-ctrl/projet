@@ -1,0 +1,99 @@
+
+header {
+  background-color: #3b5998;
+  height: 115px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  background-position: cover;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+ }
+
+ header div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+
+ nav .first {
+ margin-left: 50px;
+ }
+
+ header a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+ }
+
+header nav {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: black;
+  margin-bottom: 0;
+}
+
+header .logo {
+  height: 75px;
+  width: 350px;
+  object-fit: cover;
+}
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f0f5fa;
+  color: #333;
+  padding-top: 120px;
+}
+
+h1 {
+    margin-top: 0;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    background-image: url("../pictures/gouv.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+
+}
+
+p { 
+  font-size: 20px;
+}
+
+footer {
+  background-color: #3b5998;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+
+.image-accueil {
+  width: 80%;
+  max-width: 800px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 12px;
+}
+
+ a:hover {
+  color: #07b5ff;
+  text-decoration: underline;
+}
+
+
+a {
+  display: inline-block;
+  padding: 5px 20px;
+  background-color: #3b5998;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 10px;
+  color: white;
+}
