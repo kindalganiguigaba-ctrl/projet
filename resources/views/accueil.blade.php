@@ -31,6 +31,11 @@
       Gestion des Ayants Droit de Militaires Portés Disparus ou Décédés en Mission Commandée
     </h1>
     </div>
+
+
+
+
+
     <section>
     <p id="deux"> Ce portail a été conçu pour faciliter l’enregistrement, le suivi et la mise à jour des informations
       relatives aux ayants droit : conjoints, enfants, et ascendants à charge. Il permet aux gestionnaires
