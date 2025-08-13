@@ -6,6 +6,8 @@ Route::get('/', function () {
     return view('accueil');
 });
 
+
+
 Route::get('/login', function () {
     return view('connexion');
 });
