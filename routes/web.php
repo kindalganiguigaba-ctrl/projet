@@ -6,6 +6,12 @@ Route::get('/', function () {
     return view('accueil');
 });
 
+
+Route::get('/', function () {
+    return view('sshsdhdh');
+});
+
+
 Route::get('/login', function () {
     return view('connexion');
 });
