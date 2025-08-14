@@ -1,5 +1,5 @@
 
-@extends('layouts.app')
+@extends('layouts.appuser')
 
 <title>Menu- Ayants droit</title>
 <link rel="stylesheet" href="/css/dashboard.css">

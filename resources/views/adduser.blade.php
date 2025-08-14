@@ -1,52 +1,10 @@
 
-@extends('layouts.app')
+@extends('layouts.appuser')
 
 <title>Gestions des utilisateurs</title>
 <link rel="stylesheet" href="/css/inscription.css">
 
-<style>
-    
-@media (max-width: 768px) {
-  section h2 {
-    margin-top: 100px;
-    font-size: 50px;
-    height: 100px;
-  }
 
-  section form {
-    margin-bottom: 200px;
-    height: 45%;
-  }
-
-  section form label {
-    font-size: 30px;
-  }
-
-  button[type="submit"] {
-    height: 80px;
-    text-align: center;
-    font-size: 37px;
-    margin: auto;
-  }
-
-  input, select {
-    width: 100%;
-    height: 85px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    font-size: 15px;
-  }
-
-  select option {
-    font-size: 30px;
-  }
-  footer {
-    font-size: 30px;
-  }
-}
-
-</style>
 @section('content')
 
 <section>

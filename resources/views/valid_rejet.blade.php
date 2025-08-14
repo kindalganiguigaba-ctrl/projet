@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.appuser')
 
 <title>Valider ou rejeter un dossier</title>
 <link rel="stylesheet" href="/css/valid_rejet.css">

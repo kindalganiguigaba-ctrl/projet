@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.appuser')
 
 <title>Confirmer la suppression</title>
 <link rel="stylesheet" href="/css/supprimer.css">

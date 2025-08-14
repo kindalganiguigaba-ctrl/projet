@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.appuser')
 
 <title>Menu- Administrateur</title>
 <link rel="stylesheet" href="/css/dashboard.css">

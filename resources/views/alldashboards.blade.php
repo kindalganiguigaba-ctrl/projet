@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.appuser')
 
 <title>Tous les tableax de bord</title>
 <link rel="stylesheet" href="/css/dashboard.css">

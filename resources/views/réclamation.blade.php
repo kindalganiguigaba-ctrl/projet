@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.appuser')
 
 <title>Réclamations des utilisateurs</title>
 <link rel="stylesheet" href="/css/réclamation.css">

@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.appuser')
 
 <title>Liste des ayants droit</title>
 <link rel="stylesheet" href="/css/liste_ayants.css">

@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.appuser')
 
 <title>Ajout d'un ayant droit</title>
 <link rel="stylesheet" href="/css/ajouter_ayant_droit.css">

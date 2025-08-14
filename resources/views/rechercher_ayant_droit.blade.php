@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.appuser')
 
 <title>Rechercher un ayant droit</title>
 <link rel="stylesheet" href="/css/recherche.css">
